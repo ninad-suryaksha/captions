@@ -1,24 +1,41 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Content Studio
 
-First, run the development server:
+Generate tailored content for your brand across all platforms
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Setup Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Install dependencies**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Configure API key**:
+
+   - Create a `.env.local` file in the root directory
+   - Add your OpenAI API key in the following format:
+     ```
+     OPENAI_API_KEY=your-actual-api-key-here
+     ```
+   - You can get an API key from [OpenAI's platform](https://platform.openai.com/api-keys)
+
+3. **Run the development server**:
+
+   ```
+   npm run dev
+   ```
+
+4. **Access the application**:
+   - Open your browser and navigate to http://localhost:3000 (or the port shown in your terminal)
+
+## Features
+
+- Generate social media content ideas for Instagram, Facebook, YouTube, and LinkedIn
+- Analyze websites to understand brand voice, offerings, and target audience
+- Create tailored content strategies for each platform
+- Generate AI trend content ideas with the AI Trends toggle
 
 ## Learn More
 
