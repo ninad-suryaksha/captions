@@ -257,7 +257,7 @@ Return your response in a JSON format with the following structure:
       messages: [{ role: "system", content: systemPrompt }],
       response_format: { type: "json_object" },
       temperature: 0.7,
-      max_tokens: 32000, // Greatly increased token limit to handle extremely detailed content
+      max_tokens: 16000, // Updated from 32000 to be within model's limit of 16384
     })
 
     // Parse the JSON response
